@@ -117,6 +117,6 @@ Copyright (c) 2026 零玉
 
 觉得有用，可以用微信扫码打赏作者喝杯冰淇淋红茶。
 
-<p align="center">
+<p align="left">
   <img src="support-wechat.png" alt="零玉的微信赞赏码" width="320">
 </p>
