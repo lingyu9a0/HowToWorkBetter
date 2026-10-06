@@ -30,7 +30,7 @@ const pages = [
 ];
 
 function aboutMd() {
-  return `# 版本说明\n\n第一稿。生成于 ${STAMP}（北京时间）。\n\n项目仓库：${REPO}\n\n本地资料的链接已在发布副本中改为文字说明。原始导出稿保留。\n\n本书正文采用 [署名—非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/)。Copyright (c) 2026 零玉。`;
+  return `# 版本说明\n\nV1.0。生成于 ${STAMP}（北京时间）。\n\n项目仓库：${REPO}\n\n本地资料的链接已在发布副本中改为文字说明。原始导出稿保留。\n\n本书正文采用 [署名—非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/)。Copyright (c) 2026 零玉。`;
 }
 
 // ---------- 链接：书内的改成锚点，书外的改成绝对网址 ----------
@@ -75,7 +75,7 @@ run(PANDOC, [
   `--template=${resolve(ROOT, 'tools/pdf/template.typ')}`,
   '-V', `booktitle=${TITLE}`, '-V', `subtitle=${description}`,
   '-V', `builddate=${STAMP}`, '-V', `commit=${COMMIT.slice(0, 7) || '本地预览'}`,
-  '-V', `versionnote=${process.env.PUBLISHED === '1' ? '第一稿 · 自动生成的阅读版本' : '第一稿 · 本地预览 · 发布入口准备中'}`,
+  '-V', `versionnote=${process.env.PUBLISHED === '1' ? 'V1.0 · 自动生成的阅读版本' : 'V1.0 · 本地预览 · 发布入口准备中'}`,
   '-V', `site=${SITE}`, '-V', `repo=${REPO}`,
   '-o', typFile, WORK,
 ]);
