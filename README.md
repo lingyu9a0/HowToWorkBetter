@@ -11,7 +11,7 @@
 这是一本遇到工作问题时可以拿来查的工具书。从毕业选路、找工作、入职，到在岗、跳槽、离职和空窗，按打工过程中遇到的问题排列。
 
 <p align="center">
-  <a href="#阅读与下载"><img alt="在线阅读：待发布" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E5%BE%85%E5%8F%91%E5%B8%83&amp;color=547565&amp;style=flat"></a>
+  <a href="https://lingyu9a0.github.io/HowToWorkBetter/"><img alt="在线阅读：点击打开" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80&amp;color=547565&amp;style=flat"></a>
   <a href="#当前版本"><img alt="具体行动建议：416 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=416+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
   <a href="#条目里写了什么"><img alt="证据分级：A · B · C" src="https://img.shields.io/static/v1?label=%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
   <a href="#统计口径"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
@@ -88,7 +88,12 @@
 
 ## 阅读与下载
 
-在线阅读、PDF、EPUB 和离线 HTML 正在准备，完成后在这里提供入口。
+- [网页阅读](https://lingyu9a0.github.io/HowToWorkBetter/)：支持搜索、主题筛选和证据等级筛选。
+- [下载 PDF](https://github.com/lingyu9a0/HowToWorkBetter/releases/download/book-latest/HowToWorkBetter.pdf)：适合电脑阅读和打印。
+- [下载 EPUB](https://github.com/lingyu9a0/HowToWorkBetter/releases/download/book-latest/HowToWorkBetter.epub)：适合电子书阅读器。
+- [下载离线 HTML](https://github.com/lingyu9a0/HowToWorkBetter/releases/download/book-latest/HowToWorkBetter.html)：保存后可在浏览器里离线阅读。
+
+阅读和下载版本随仓库正文更新自动生成。
 
 本书不构成法律意见，具体法律问题请咨询执业律师。
 
