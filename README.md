@@ -14,7 +14,7 @@
   <a href="https://lingyu9a0.github.io/HowToWorkBetter/"><img alt="在线阅读：点击打开" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80&amp;color=547565&amp;style=flat"></a>
   <a href="#当前版本"><img alt="具体行动建议：416 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=416+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
   <a href="#条目里写了什么"><img alt="证据分级：A · B · C" src="https://img.shields.io/static/v1?label=%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
-  <a href="#统计口径"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
+  <a href="#条目里写了什么"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
   <a href="#这本书想回答的问题"><img alt="已收录主题：9 个" src="https://img.shields.io/static/v1?label=%E5%B7%B2%E6%94%B6%E5%BD%95%E4%B8%BB%E9%A2%98&amp;message=9+%E4%B8%AA&amp;color=21613f&amp;style=flat"></a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="许可：CC BY-NC 4.0" src="https://img.shields.io/static/v1?label=%E8%AE%B8%E5%8F%AF&amp;message=CC+BY-NC+4.0&amp;color=526259&amp;style=flat"></a>
 </p>
@@ -25,9 +25,6 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 
 全书规划为 21 节正文。以下目录包含尚未收录的章节。条目编号暂时沿用V1.0，与规划章节编号分别保留。
 
-### 统计口径
-
-数字按当前V1.0统计：416 条，A 153 条、B 245 条，18 条的等级栏为“／”，表示不评级。等级沿用原稿标记，不代表发布工具已逐条复核证据。来源链接共 395 处，包含重复链接、官方摘要等，不等于 395 篇独立原始文献。
 
 ## 这本书想回答的问题
 
@@ -76,8 +73,6 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 
 当前V1.0包括投入与结果、取舍、为什么、什么时候不成立、等级、大白话、行动建议和来源。
 
-条目中的等级需要结合具体来源和说明阅读，不能只凭一个等级判断整条建议都已得到验证。
-
 ### “／”为什么不评级
 
 等级栏里的“／”表示不评级。这 18 条不是用来判断“做了是否有效”的方法，而是个人偏好、规范或概念区分，因此不适合用 A、B、C 衡量“值不值得做”。这里的 A、B、C 沿用原稿的建议采用等级：A 优先采用，B 按需尝试，C 暂不推荐。
@@ -115,3 +110,13 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 你可以复制、分享和改编正文，但需要注明作者零玉，提供本书与许可证的链接，并标明是否作了修改；不得用于商业目的，也不得增加限制他人行使许可所允许权利的法律条款或技术措施。
 
 Copyright (c) 2026 零玉
+
+## 作者与支持
+
+作者：零玉 · [X（@gly9a0）](https://x.com/gly9a0) · [小红书](https://xhslink.cn/o/3XFGWU8kJOV) · [抖音](https://v.douyin.com/s1epJnyYyFw/)
+
+觉得有用，可以用微信扫码打赏作者喝杯冰淇淋红茶。
+
+<p align="center">
+  <img src="support-wechat.png" alt="零玉的微信赞赏码" width="320">
+</p>
