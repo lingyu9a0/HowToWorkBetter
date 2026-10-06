@@ -1,0 +1,70 @@
+{
+  "title": "21 世纪打工宝典",
+  "author": "零玉",
+  "promise": "用最少的投入（钱、时间、精力和健康），换回最多的产出（金钱、可支配时间和自由）。",
+  "chapters": [
+    {
+      "path": "book/00-怎么做出高性价比选择.md",
+      "title": "怎么做出高性价比选择",
+      "entries": 31,
+      "source_sha256": "27f280a9531d35a77dcd50d958580b10c9b98e47ed150081a6a2c41b3ad59c1c",
+      "number": 0
+    },
+    {
+      "path": "book/01-毕业之后怎么选适合自己的路.md",
+      "title": "毕业之后怎么选适合自己的路",
+      "entries": 28,
+      "source_sha256": "fc1474bfd04212dc2af04daa1ffb5a76eea5aa8578082a8609800145f186145a",
+      "number": 1
+    },
+    {
+      "path": "book/02-学什么技能、考什么证方便升职加薪跳槽.md",
+      "title": "学什么技能、考什么证方便升职加薪跳槽",
+      "entries": 29,
+      "source_sha256": "8955380c22bc8c7ec9f8f1d3cd606c2b54b0ce109a9b315eaa594431a6c5416a",
+      "number": 2
+    },
+    {
+      "path": "book/03-别海投，先挑值得投的岗位.md",
+      "title": "别海投，先挑值得投的岗位",
+      "entries": 62,
+      "source_sha256": "79855c627f827e108306ebe67fcb41ef91ac1c9d0ad82e6e98e79843a8b81083",
+      "number": 3
+    },
+    {
+      "path": "book/04-什么offer更值得去.md",
+      "title": "什么Offer更值得去",
+      "entries": 38,
+      "source_sha256": "8c53c57df37b2bad39920fb268e00dd9e6b3d20459e51f5dc3e02ba0dcd46ebf",
+      "number": 4
+    },
+    {
+      "path": "book/05-入职和试用期如何平安度过.md",
+      "title": "入职和试用期如何平安度过",
+      "entries": 30,
+      "source_sha256": "e6e5c4e5f484ecd6d63681e2e8a7e0e72385ea9181c2ed5902eba00e95bcfe37",
+      "number": 5
+    },
+    {
+      "path": "book/06-别让工作填充你的下班时间.md",
+      "title": "别让工作填充你的下班时间",
+      "entries": 38,
+      "source_sha256": "23047a1a8b5b5d89d025c7e89517bdc8d50f2811bb80b43ec5ee9f1bf30100dd",
+      "number": 6
+    },
+    {
+      "path": "book/07-花最少的力气和领导相处.md",
+      "title": "花最少的力气和领导相处",
+      "entries": 64,
+      "source_sha256": "192197815a176d63795b17174ed00e4c4d8da1f2deb8c0f3ea3bf69be7b5da8c",
+      "number": 7
+    },
+    {
+      "path": "book/08-花最少的力气和同事相处.md",
+      "title": "花最少的力气和同事相处",
+      "entries": 96,
+      "source_sha256": "32ad8df339dcb5e61037a4be37f9d74e5030a4a40ddcdb8f4e0d1c3b989f8c7d",
+      "number": 8
+    }
+  ]
+}

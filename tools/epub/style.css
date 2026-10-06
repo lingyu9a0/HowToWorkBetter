@@ -1,0 +1,17 @@
+body { line-height: 1.6; }
+h1 { font-size: 1.5em; margin: 1em 0 0.6em; }
+h2 { font-size: 1.25em; margin: 1.2em 0 0.5em; }
+h3 { font-size: 1.1em; margin: 1.4em 0 0.4em; }
+p { margin: 0.6em 0; }
+ul, ol { padding-left: 1.4em; margin: 0.4em 0; }
+li { margin: 0.25em 0; }
+a { color: #3451b2; text-decoration: none; word-break: break-all; }
+code { font-family: monospace; font-size: 0.9em; }
+pre { white-space: pre-wrap; word-break: break-all; font-size: 0.85em; border: 1px solid #cccccc; padding: 0.5em; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9em; margin: 0.8em 0; }
+th, td { border: 1px solid #999999; padding: 0.3em 0.4em; vertical-align: top; text-align: left; }
+blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #cccccc; color: #555555; }
+hr { border: 0; border-top: 1px solid #cccccc; margin: 1.5em 0; }
+.cover { text-align: center; }
+.cover img { max-width: 100%; }
+

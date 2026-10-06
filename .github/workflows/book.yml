@@ -1,0 +1,73 @@
+name: 电子书与阅读网页
+on:
+  push:
+    branches: [main]
+    paths: ['README.md', 'book/**', 'book.json', 'tools/**', 'og.png', 'package*.json', '.github/workflows/book.yml']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts
+      - name: 安装排版工具与字体
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          curl -fL https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-linux-amd64.tar.gz | tar xz
+          curl -fL https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz | tar xJ
+          echo "$PWD/pandoc-3.8.3/bin" >> "$GITHUB_PATH"
+          echo "$PWD/typst-x86_64-unknown-linux-musl" >> "$GITHUB_PATH"
+      - name: 生成阅读版本
+        run: npm run build
+        env:
+          PUBLISHED: '1'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HowToWorkBetter
+          path: |
+            dist/HowToWorkBetter.pdf
+            dist/HowToWorkBetter.epub
+            dist/HowToWorkBetter.html
+      - name: 发布下载文件
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view book-latest >/dev/null 2>&1; then
+            gh release create book-latest --target "$GITHUB_SHA" --title '21 世纪打工宝典 · 阅读版本' --notes '由仓库正文自动生成。'
+          fi
+          gh release upload book-latest dist/HowToWorkBetter.pdf dist/HowToWorkBetter.epub dist/HowToWorkBetter.html --clobber
+          gh release edit book-latest --notes "正文版本：$GITHUB_SHA；PDF、EPUB 和离线 HTML 已更新。"
+      - name: 准备阅读网站
+        if: github.event_name != 'pull_request'
+        run: |
+          mkdir -p dist/site
+          cp index.html dist/site/index.html
+          touch dist/site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist/site
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布阅读网站
+        id: deployment
+        uses: actions/deploy-pages@v4
