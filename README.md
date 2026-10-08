@@ -13,8 +13,8 @@
 <p align="center">
   <a href="https://lingyu9a0.github.io/HowToWorkBetter/"><img alt="在线阅读：点击打开" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80&amp;color=547565&amp;style=flat"></a>
   <a href="#当前版本"><img alt="具体行动建议：416 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=416+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
-  <a href="#条目里写了什么"><img alt="证据分级：A · B · C" src="https://img.shields.io/static/v1?label=%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
-  <a href="#条目里写了什么"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
+  <a href="#等级分类"><img alt="建议采用等级：A · B · C" src="https://img.shields.io/static/v1?label=%E5%BB%BA%E8%AE%AE%E9%87%87%E7%94%A8%E7%AD%89%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
+  <a href="#等级分类"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
   <a href="#这本书想回答的问题"><img alt="已收录主题：9 个" src="https://img.shields.io/static/v1?label=%E5%B7%B2%E6%94%B6%E5%BD%95%E4%B8%BB%E9%A2%98&amp;message=9+%E4%B8%AA&amp;color=21613f&amp;style=flat"></a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="许可：CC BY-NC 4.0" src="https://img.shields.io/static/v1?label=%E8%AE%B8%E5%8F%AF&amp;message=CC+BY-NC+4.0&amp;color=526259&amp;style=flat"></a>
 </p>
@@ -69,28 +69,19 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 
 已经花掉、无法收回的投入，不作为继续投入的理由。比较方案时，重点算从现在起还要付出什么，以及可能得到什么。
 
-## 条目里写了什么
+## 等级分类
 
-当前V1.0包括投入与结果、取舍、为什么、什么时候不成立、等级、大白话、行动建议和来源。
+A、B、C 表示这条建议适合怎样采用。
 
-### “／”为什么不评级
+| 等级 | 分类 | 怎么判断 |
+|---|---|---|
+| A | 优先采用 | 要解决什么、为什么值得做、需要什么条件、代价和主要风险，都已核对清楚。符合条件时，可以优先采用。 |
+| B | 按需尝试 | 还有一个会影响“值不值得做”的问题没弄清，但可以控制范围和成本试一试，再看实际结果决定是否继续。 |
+| C | 暂不推荐 | 核心说法还站不住，或有重要风险没解决。先补核查或改做法，再考虑采用。 |
 
-等级栏里的“／”表示不评级。这 18 条不是用来判断“做了是否有效”的方法，而是个人偏好、规范或概念区分，因此不适合用 A、B、C 衡量“值不值得做”。这里的 A、B、C 沿用原稿的建议采用等级：A 优先采用，B 按需尝试，C 暂不推荐。
+A 可以来自研究、适用的规则或指南，也可以来自前提已核实、能逐步检查的推理。没有直接实验，或建议有适用条件，都不能单独成为降到 B 的理由。
 
-**第一类：个人偏好或价值排序，原文明写“不评级”，共 3 条。**
-
-- **没有统一的对错：** 比如休息一天还是继续推进、要不要对公共事件表态、对穿着和爱好类评价要不要在意。
-- **没有标准答案：** 研究不能替所有人决定唯一答案，选哪边取决于本人的偏好和价值排序。
-
-**第二类：规范或概念类，原文写“成立”，共 15 条。**
-
-- **诚实、真实性的规范：** 比如不编造认识的理由、不虚报 Offer、借熟人名字前先问本人。这些是在判断表达是否真实、是否尊重本人意愿，不能只凭有没有效果来衡量。
-- **区分概念：** 比如事实和对事实的解释是两件事，身份和命题真假不是一回事。
-- **限定范围的规范：** 比如按已确认权限行事、职责明确时不替负责人做决定。
-
-“成立”指这里的规范或概念判断成立，并不表示照做就能保证涨薪、改善关系或得到其他结果。“／”也不表示漏填或低于 C。
-
-这 18 条均为编号条目，可在网页中选择“不评级”查看。
+等级不能代替效果证据。说能涨薪，就要查涨薪；只说明怎样准备或核对，就评这个用途，不能顺带保证涨薪。研究、规则和推理各自支持什么，见每条的“为什么”和“来源”。纯偏好、纯规范和概念区别，不评建议采用等级。
 
 ## 阅读与下载
 
