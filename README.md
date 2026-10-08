@@ -14,16 +14,15 @@
   <a href="https://lingyu9a0.github.io/HowToWorkBetter/"><img alt="在线阅读：点击打开" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80&amp;color=547565&amp;style=flat"></a>
   <a href="#当前版本"><img alt="具体行动建议：416 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=416+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
   <a href="#等级分类"><img alt="建议采用等级：A · B · C" src="https://img.shields.io/static/v1?label=%E5%BB%BA%E8%AE%AE%E9%87%87%E7%94%A8%E7%AD%89%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
-  <a href="#等级分类"><img alt="来源链接：395 处" src="https://img.shields.io/static/v1?label=%E6%9D%A5%E6%BA%90%E9%93%BE%E6%8E%A5&amp;message=395+%E5%A4%84&amp;color=547565&amp;style=flat"></a>
   <a href="#这本书想回答的问题"><img alt="已收录主题：9 个" src="https://img.shields.io/static/v1?label=%E5%B7%B2%E6%94%B6%E5%BD%95%E4%B8%BB%E9%A2%98&amp;message=9+%E4%B8%AA&amp;color=21613f&amp;style=flat"></a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="许可：CC BY-NC 4.0" src="https://img.shields.io/static/v1?label=%E8%AE%B8%E5%8F%AF&amp;message=CC+BY-NC+4.0&amp;color=526259&amp;style=flat"></a>
 </p>
 
 ## 当前版本
 
-V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及毕业选路、技能与证书、岗位筛选、Offer 比较、入职和试用期、下班时间、领导相处、同事相处八个主题。
+V1.0已收录 416 条具体行动建议，覆盖 9 个主题。
 
-全书规划为 21 节正文。以下目录包含尚未收录的章节。条目编号暂时沿用V1.0，与规划章节编号分别保留。
+全书规划为 21 节正文。目录中标为“规划中”的章节尚未收录。
 
 
 ## 这本书想回答的问题
@@ -59,7 +58,7 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 
 先读标题和“大白话”，了解这条建议。准备采用时，再看投入、取舍和“什么时候不成立”，确认自己是否具备适用条件。
 
-想核对依据，可以看“为什么”和“来源”。研究结论、理论解释、经验判断和具体行动建议各有支持范围，采用前需要看清它们之间的区别。
+想核对依据，可以看“为什么”和“来源”。
 
 ## 算哪些投入，换回什么
 
@@ -71,17 +70,11 @@ V1.0已收录 416 条具体行动建议，包括书前的选择方法，以及�
 
 ## 等级分类
 
-A、B、C 表示这条建议适合怎样采用。
-
-| 等级 | 分类 | 怎么判断 |
-|---|---|---|
-| A | 优先采用 | 要解决什么、为什么值得做、需要什么条件、代价和主要风险，都已核对清楚。符合条件时，可以优先采用。 |
-| B | 按需尝试 | 还有一个会影响“值不值得做”的问题没弄清，但可以控制范围和成本试一试，再看实际结果决定是否继续。 |
-| C | 暂不推荐 | 核心说法还站不住，或有重要风险没解决。先补核查或改做法，再考虑采用。 |
-
-A 可以来自研究、适用的规则或指南，也可以来自前提已核实、能逐步检查的推理。没有直接实验，或建议有适用条件，都不能单独成为降到 B 的理由。
-
-等级不能代替效果证据。说能涨薪，就要查涨薪；只说明怎样准备或核对，就评这个用途，不能顺带保证涨薪。研究、规则和推理各自支持什么，见每条的“为什么”和“来源”。纯偏好、纯规范和概念区别，不评建议采用等级。
+| 等级 | 分类 |
+|---|---|
+| A | 优先采用 |
+| B | 按需尝试 |
+| C | 暂不推荐 |
 
 ## 阅读与下载
 
@@ -90,7 +83,7 @@ A 可以来自研究、适用的规则或指南，也可以来自前提已核实
 - [下载 EPUB](https://github.com/lingyu9a0/HowToWorkBetter/releases/download/book-latest/HowToWorkBetter.epub)：适合电子书阅读器。
 - [下载离线 HTML](https://github.com/lingyu9a0/HowToWorkBetter/releases/download/book-latest/HowToWorkBetter.html)：保存后可在浏览器里离线阅读。
 
-阅读和下载版本随仓库正文更新自动生成。
+下载版本会随内容更新。
 
 本书不构成法律意见，具体法律问题请咨询执业律师。
 
