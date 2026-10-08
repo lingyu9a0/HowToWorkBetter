@@ -1,11 +1,12 @@
 {
-  "entries": 416,
+  "entries": 398,
   "grades": {
     "A": 153,
     "B": 245,
-    "unmarked": 18
+    "C": 0,
+    "unmarked": 0
   },
   "topics": 9,
-  "source_link_occurrences": 395,
-  "source_links_note": "含重复及官方摘要，不代表独立原始文献数"
+  "source_link_occurrences": 412,
+  "source_links_note": "正文中HTTP/HTTPS链接出现次数，含裸链接、重复及官方摘要，不代表独立原始文献数"
 }

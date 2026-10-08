@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://lingyu9a0.github.io/HowToWorkBetter/"><img alt="在线阅读：点击打开" src="https://img.shields.io/static/v1?label=%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB&amp;message=%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80&amp;color=547565&amp;style=flat"></a>
-  <a href="#当前版本"><img alt="具体行动建议：416 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=416+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
+  <a href="#当前版本"><img alt="具体行动建议：398 条" src="https://img.shields.io/static/v1?label=%E5%85%B7%E4%BD%93%E8%A1%8C%E5%8A%A8%E5%BB%BA%E8%AE%AE&amp;message=398+%E6%9D%A1&amp;color=228B22&amp;style=flat"></a>
   <a href="#等级分类"><img alt="建议采用等级：A · B · C" src="https://img.shields.io/static/v1?label=%E5%BB%BA%E8%AE%AE%E9%87%87%E7%94%A8%E7%AD%89%E7%BA%A7&amp;message=A+%C2%B7+B+%C2%B7+C&amp;color=18533b&amp;style=flat"></a>
   <a href="#这本书想回答的问题"><img alt="已收录主题：9 个" src="https://img.shields.io/static/v1?label=%E5%B7%B2%E6%94%B6%E5%BD%95%E4%B8%BB%E9%A2%98&amp;message=9+%E4%B8%AA&amp;color=21613f&amp;style=flat"></a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="许可：CC BY-NC 4.0" src="https://img.shields.io/static/v1?label=%E8%AE%B8%E5%8F%AF&amp;message=CC+BY-NC+4.0&amp;color=526259&amp;style=flat"></a>
@@ -20,7 +20,7 @@
 
 ## 当前版本
 
-V1.0已收录 416 条具体行动建议，覆盖 9 个主题。
+V1.0已收录 398 条具体行动建议，覆盖 9 个主题。
 
 全书规划为 21 节正文。目录中标为“规划中”的章节尚未收录。
 
@@ -70,11 +70,11 @@ V1.0已收录 416 条具体行动建议，覆盖 9 个主题。
 
 ## 等级分类
 
-| 等级 | 分类 |
-|---|---|
-| A | 优先采用 |
-| B | 按需尝试 |
-| C | 暂不推荐 |
+| 等级 | 分类 | 怎么判断 |
+|---|---|---|
+| A | 优先采用 | 要解决什么、为什么值得做、需要什么条件、代价和主要风险，都已核对清楚。符合条件时，可以优先采用。 |
+| B | 按需尝试 | 还有一个会影响“值不值得做”的问题没弄清，但可以控制范围和成本试一试，再看实际结果决定是否继续。 |
+| C | 暂不推荐 | 核心说法还站不住，或有重要风险没解决。先补核查或改做法，再考虑采用。 |
 
 ## 阅读与下载
 
