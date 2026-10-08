@@ -18,6 +18,10 @@
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="许可：CC BY-NC 4.0" src="https://img.shields.io/static/v1?label=%E8%AE%B8%E5%8F%AF&amp;message=CC+BY-NC+4.0&amp;color=526259&amp;style=flat"></a>
 </p>
 
+<p align="center">
+  <img src="content-flow.png" alt="内容整理流程：参考来源、整理职场问题、分析依据与条件、形成宝典条目" width="1200">
+</p>
+
 ## 当前版本
 
 V1.0已收录 398 条具体行动建议，覆盖 9 个主题。
