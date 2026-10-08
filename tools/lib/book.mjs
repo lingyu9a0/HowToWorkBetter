@@ -29,11 +29,14 @@ export function parseChapter(source, chapter) {
     seen.add(id);
     const grade = entryField(markdown, '等级', id).replace(/^\*\*([ABC/])\*\*$/, '$1');
     if (!['A','B','C','/'].includes(grade)) throw new Error(`${id}：非法等级“${grade}”，只允许 A、B、C 或 /`);
-    const scope = entryField(markdown, '评级对象', id);
-    const reason = entryField(markdown, '定级理由', id);
-    const route = entryField(markdown, '论证方式', id);
-    const audit = entryField(markdown, '原文核对', id);
-    return { id, title, grade, scope, reason, route, audit, markdown };
+    if (/^-\s*(?:\*\*)?(评级对象|论证方式|定级理由|原文核对)\s*[：:]/m.test(markdown)) {
+      throw new Error(`${id}：读者正文不能加入评级对象、论证方式、定级理由或原文核对栏目`);
+    }
+    return { id, title, grade, markdown };
+  });
+  entries.forEach((entry, index) => {
+    const expected = `${chapter.number}-${String(index + 1).padStart(2, '0')}`;
+    if (entry.id !== expected) throw new Error(`${chapter.path}：编号必须按阅读顺序连续，第 ${index + 1} 条应为 ${expected}，实际 ${entry.id}`);
   });
   if (entries.length !== chapter.entries) throw new Error(`${chapter.path}：预期 ${chapter.entries} 条，实际 ${entries.length} 条`);
   return { ...chapter, introduction, entries };

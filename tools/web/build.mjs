@@ -17,9 +17,9 @@ for (let i=0;i<chapters.length;i++) {
  const ch=chapters[i];
  introductions+=`<details class="chapter-note"><summary>${esc(chapterTitle(ch))} · 章节说明</summary>${md.parse(ch.introduction)}</details>`;
  for (const entry of ch.entries) {
-  const {id,title,scope,markdown}=entry;
+  const {id,title,markdown}=entry;
   const grade=entry.grade==='/'?'不评级':entry.grade;
-  cards.push(`<details class="entry" id="entry-${esc(id)}" data-chapter="${i}" data-grade="${grade}"><summary><span>${esc(title)}</span><small>${esc(chapterTitle(ch))} · 论证${grade==='不评级'?'：不评级':'等级：'+grade}</small><small>评级对象：${esc(scope)}</small></summary><div class="entry-body">${md.parse(markdown.split('\n').slice(1).join('\n'))}</div></details>`);
+  cards.push(`<details class="entry" id="entry-${esc(id)}" data-chapter="${i}" data-grade="${grade}"><summary><span>${esc(title)}</span><small>${esc(chapterTitle(ch))} · 等级：${grade}</small></summary><div class="entry-body">${md.parse(markdown.split('\n').slice(1).join('\n'))}</div></details>`);
  }
 }
 if(cards.length!==cfg.chapters.reduce((n,c)=>n+c.entries,0)) throw new Error('条目数量不一致');
